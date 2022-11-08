@@ -1,0 +1,16 @@
+#container{
+    border: solid;
+    border-color: blue;
+}
+
+.container{
+    border: solid;
+    border-color: purple;
+}
+
+.divChild{
+    height: 50px;
+    width: 50px;
+    border: solid;
+    border-color: red;
+}
