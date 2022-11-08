@@ -1,16 +1,16 @@
-#container{
-    border: solid;
-    border-color: blue;
-}
-
 .container{
     border: solid;
     border-color: purple;
+    display:flex;
+    flex-wrap:wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .divChild{
     height: 50px;
-    width: 50px;
+    width: calc(100% * (1/16));
+    box-sizing: border-box;
     border: solid;
     border-color: red;
 }
