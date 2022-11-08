@@ -17,7 +17,7 @@
     border-color: red;
 }
 
-.body{
+body{
     display:flex;
     justify-content: space-around;
 }
